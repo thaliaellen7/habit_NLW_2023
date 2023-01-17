@@ -1,0 +1,29 @@
+{
+  "name": "habit_nlw_2023_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaliaellen7/habit_NLW_2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaliaellen7/habit_NLW_2023/issues"
+  },
+  "homepage": "https://github.com/thaliaellen7/habit_NLW_2023#readme",
+  "dependencies": {
+    "@prisma/client": "^4.8.1",
+    "fastify": "^4.11.0",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.2"
+  }
+}
